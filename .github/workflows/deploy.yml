@@ -18,7 +18,6 @@ jobs:
       MONGODB_CLUSTER_ADDRESS: mongodb #same as service name, as job is running in the container
       MONGODB_USERNAME: root
       MONGODB_PASSWORD: example
-      PORT: 8080
     services:
       mongodb:
         image: mongo:4.4.8
